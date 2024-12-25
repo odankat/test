@@ -33,11 +33,6 @@ public class User {
         return super.hashCode();
     }
 
-//    public boolean equals(Objects o) {
-//        if( this == o ) return true;
-//        if(o == null || getClass() != o.getClass()) return fals
-//
-//    }
 
     public static User old(Collection<User> users) {
         HashSet<User> qwe = new HashSet<>(users);
